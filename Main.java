@@ -15,7 +15,7 @@ public class Main {
         System.out.println("Wpisz 1 aby wylsować pierwsza liczbe: ");
         i = scanner.nextInt();
 
-        int liczba = rnd.nextInt(50);
+        int liczba = rnd.nextInt(1000);
 
 
 
@@ -23,7 +23,7 @@ public class Main {
         System.out.println("Wpisz 2 aby wylosowac druga liczbe: ");
         i =scanner.nextInt();
 
-        int liczba1 = rnd.nextInt(50);
+        int liczba1 = rnd.nextInt(1000);
 
         System.out.println(liczba1);
 
